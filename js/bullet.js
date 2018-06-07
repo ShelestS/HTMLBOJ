@@ -193,10 +193,11 @@ if(weapon1==true){
 
 		speed1 = element.innerHTML
 		setTimeout(function(){
+		//setInterval(function() {
+	   // element.style.marginLeft = (parseInt(element.style.marginLeft || 0) +3) % 1500 + 'px'}, speed1);
+	//}, 2000)
 		setInterval(function() {
 	    element.style.marginLeft = (parseInt(element.style.marginLeft || 0) +3) % 1500 + 'px'}, speed1);
-	}, 2000)
-
 
 	    var i = 1;
 		setInterval(function() {
