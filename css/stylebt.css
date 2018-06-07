@@ -1,0 +1,303 @@
+body{
+	background:firebrick;
+	font-size:120%;
+	font-family:"pxlr";
+}
+@font-face {
+    font-family:pxlr;
+    src: url(fonts/pxlr.ttf);
+
+}
+.player{
+	position: absolute;
+	width:100%;
+	right:0px;
+	top:150px;
+	height:100px;
+	width:60px;
+	transition: 0.01s;
+	z-index: 1;
+	left:1466px;--<85%>--
+}
+.sosok{
+	position: absolute;
+	width:100%;
+	right:0px;
+	top:150px;
+	height:100px;
+	width:60px;
+	transition: 0.01s;
+	z-index: 1;
+	left:1466px;
+	background:purple;
+	transition: 2s;
+}
+.sosoktreshini{
+	position: absolute;
+	width:100%;
+	right:0px;
+	top:150px;
+	height:100px;
+	width:200px;
+	transition: 0.01s;
+	z-index: 0;
+	left:500px;
+	background:gray;
+	transition: 0s;
+	display:none;
+}
+.background{
+	top:0px;
+	left:0px;
+	width:100%;
+	background:green;
+	background-image:url("../img1/kover.png");
+	background-size: 100%;
+	position: absolute;
+	margin:0;
+}
+.baton{
+	height:7%;
+	width:4%;
+	position:absolute;
+	top:55%;
+	background:aquamarine;
+	z-index:3;
+}
+.enemy{
+	height:110px;
+	width:58px;
+	position:absolute;
+	background:url(../img1/skright.png);
+	z-index:3;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	transition:4s;
+}
+.enemy1{
+	height:110px;
+	width:58px;
+	position:absolute;
+	background:url(../img1/skright.png);
+	z-index:3;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	transition:4s;
+}
+.enemy2{
+	height:110px;
+	width:58px;
+	position:absolute;
+	background:url(../img1/skright.png);
+	z-index:3;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	transition:4s;
+}
+.enemy3{
+	height:110px;
+	width:58px;
+	position:absolute;
+	background:url(../img1/robot.png);
+	z-index:3;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	transition:4s;
+}
+.enemy4{
+	height:110px;
+	width:40px;
+	position:absolute;
+	background:url(../img1/robot.png);
+	z-index:3;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	transition:4s;
+}
+.bulletsimg{
+	height:70px;
+	width:50px;
+	position:absolute;
+	background:url(../img1/bulletimg.png);
+	z-index:3;
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+.shotgunimg{
+	height:60px;
+	width:100px;
+	position:absolute;
+	background:url(../img1/shotgun.png);
+	z-index:3;
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+.bulletsdiv{
+	height:23px;
+	width:3%;
+	position:absolute;
+	background:cyan;
+	z-index:3;
+	border-style:solid;
+	border-width:6px;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	top:84%;
+	left:18%;
+	text-align: center;
+}
+.newbulletsdiv{
+	height:23px;
+	width:2%;
+	position:absolute;
+	background:cyan;
+	z-index:3;
+	border-style:solid;
+	border-width:6px;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	top:89.5%;
+	left:22%;
+	border-color:grey;
+	text-align: center;
+	border-radius:10%;
+}
+.shotgunbulletsdiv{
+	height:23px;
+	width:3%;
+	position:absolute;
+	background:aquamarine;
+	z-index:3;
+	border-style:solid;
+	border-width:6px;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	top:84%;
+	left:22.4%;
+	text-align: center;
+}
+.newshotgunbulletsdiv{
+	height:23px;
+	width:2%;
+	position:absolute;
+	background:aquamarine;
+	z-index:3;
+	border-style:solid;
+	border-width:6px;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	top:89.5%;
+	left:25%;
+	border-color:grey;
+	text-align: center;
+	border-radius:10%;
+}
+.weapondiv{
+	height:23px;
+	width:8%;
+	position:absolute;
+	z-index:3;
+	border-style:solid;
+	border-width:6px;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	top:84%;
+	left:8.5%;
+	background:coral;
+	text-align: center;
+}
+.whatweapon{
+	height:14%;
+	width:6.8%;
+	position:absolute;
+	z-index:3;
+	border-style:solid;
+	border-width:6px;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	top:84%;
+}
+.reloaddiv{
+	background:white;
+	height:40%;
+	width:40%;
+	z-index:3;
+	border-style:solid;
+	border-width:4px;
+	border-radius:5%;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	top:84%;
+	margin-top:50%;
+	margin-left:50%;
+}
+.bullet{
+	height:1.8%;
+	width:1.2%;
+	position:absolute;
+	top:55%;
+	background:url(../img1/bullet.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	z-index:3;
+}
+.b{
+	height:1.5%;
+	width:0.5%;
+	position:absolute;
+	top:55%;
+	background:url(../img1/bm.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	z-index:3;
+}
+.bullet1{
+	height:1.8%;
+	width:1.2%;
+	position:absolute;
+	top:55%;
+	background:url(../img1/bullet1.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	z-index:3;
+}
+.bullet3{
+	height:2.6%;
+	width:0.6%;
+	position:absolute;
+	top:55%;
+	background:url(../img1/bullet3.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	z-index:3;
+}
+.bullet4{
+	height:2.6%;
+	width:0.6%;
+	position:absolute;
+	top:55%;
+	background:url(../img1/bullet4.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	z-index:3;
+}
+.playerhp{
+	height:3.2%;
+	width:200px;
+	position:absolute;
+	z-index:3;
+	border-style:solid;
+	border-width:6px;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	top:89.5%;
+	left:8.5%;
+	text-align: center;
+}
+.playerhphp{
+	height:100%;
+	position:absolute;
+	z-index:3;
+	background:lime;
+	text-align: center;
+}
